@@ -3,6 +3,14 @@ body{
     margin: 0;
 }
 
-h1{
-    color: red;
+.row{
+    background-color: red;
+    border: 1px solid;
+    padding: 5px;
 }
+
+.col{
+    background-color: green;
+    border: 1px solid black;
+}
+
