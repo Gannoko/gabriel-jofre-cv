@@ -2,11 +2,15 @@ body{
     padding: 0;
     margin: 0;
 }
+/*Barra de navegación*/
+.navbar{
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
 
-.row{
-    background-color: red;
-    border: 1px solid;
-    padding: 5px;
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
 }
 
 .col{
@@ -16,4 +20,8 @@ body{
     font-size: 23px;
 }
 
-
+@media screen and (max-width: 768px) {
+    .navbar-brand{
+        display: none;
+    }
+}
