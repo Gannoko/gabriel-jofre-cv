@@ -2,7 +2,9 @@ body{
     padding: 0;
     margin: 0;
 }
+
 /*Barra de navegación*/
+
 .navbar{
     padding: 1rem;
     background-color: #f4f4f4;
@@ -13,15 +15,114 @@ body{
     justify-content: space-between;
 }
 
-.col{
-    background-color: green;
-    border: 1px solid black;
-    color: #fff;
-    font-size: 23px;
+.img-perfil{
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: solid 4px #0A174E;
 }
+
+/*ESTILOS GENERALES*/
+
+.seccion-titulo{
+    font-family: 'quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.seccion-texto{
+    font-family: 'quicksand', sans-serif;
+    font-size: 1.5rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+
+/*FIN DE GENERALES*/
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero{
+    background-color: #f4f4f4;
+    min-height: 450px;
+}
+.seccion-oscura{
+    background-color: #0A174E;
+    color: white;
+    padding: 2rem;
+}
+
+.seccion-clara{
+    color: #0A174E;
+    background-color: #f4f4f4;
+}
+
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.sobre-mi .contenedor{ 
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/* EXPERIENCIA */
+.experiencia{
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia-titulo{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.experiencia .row div{
+    height: 250px;
+}
+
+.experiencia i{
+    font-size: 2.5rem;
+    color: #0A174E;
+    background-color: #f4f4f4;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+/* MEDIAS QUERIES */
 
 @media screen and (max-width: 768px) {
     .navbar-brand{
         display: none;
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen{
+        max-width: 600px;   
+        
     }
 }
