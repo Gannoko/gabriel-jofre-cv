@@ -90,26 +90,49 @@ h1{
 
 
 /* EXPERIENCIA */
-.experiencia{
-    padding: 40px 40px 60px 40px;
+.experiencia {
+  padding: 40px 40px 60px 40px;
 }
 
-.experiencia-titulo{
-    margin-top: 10px;
-    font-size: 1.5rem;
+.experiencia .columna {
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
 }
 
-.experiencia .row div{
-    height: 250px;
+.experiencia .columna:hover {
+  color: white;
+  background-color: #0A174E;
 }
 
-.experiencia i{
-    font-size: 2.5rem;
-    color: #0A174E;
-    background-color: #f4f4f4;
-    padding: 8px 19px;
-    border-radius: 50%;
+.experiencia i {
+  font-size: 2.5rem;
+  color: #f4f4f4;
+  background-color: #0A174E;
+  padding: 8px 19px;
+  border-radius: 50%;
 }
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
+
 
 /* MEDIAS QUERIES */
 
